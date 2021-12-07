@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { MoviesService } from 'src/app/core/services/movies.service';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  @Input() hideHome!:boolean;
+  @Input() hideList!:boolean;
+  @Input() hideCart!:boolean;
+  @Input() hideSignIn!:boolean;
+  @Input() hideSignUp!:boolean;
+  @Output() changeViewTo = new EventEmitter<string>();
+
+  constructor(private servicio:MoviesService) { }
 
   ngOnInit(): void {
+  }
+
+  changeView(view:string){
+    this.servicio.getNameView.emit(view);
   }
 
 }
