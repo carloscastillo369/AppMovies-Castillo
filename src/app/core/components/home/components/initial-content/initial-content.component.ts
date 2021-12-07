@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MoviesService } from 'src/app/core/services/movies.service';
+import { MovieModel } from 'src/app/core/models/movie.model';
 
 @Component({
   selector: 'app-initial-content',
@@ -8,7 +9,7 @@ import { MoviesService } from 'src/app/core/services/movies.service';
 })
 export class InitialContentComponent implements OnInit {
 
-  nextReleases:any;
+  nextReleases:MovieModel[];
 
   constructor(private servicio:MoviesService) { 
     this.nextReleases = this.servicio.movies.filter((i) => i.Commingsoon == true);

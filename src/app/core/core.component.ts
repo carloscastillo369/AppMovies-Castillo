@@ -13,6 +13,7 @@ export class CoreComponent implements OnInit {
   hideCart:boolean = true;
   hideSignIn:boolean = true;
   hideSignUp:boolean = true;
+  hideInfoMovie:boolean = true;
 
   constructor(private servicio:MoviesService) { }
 
@@ -25,6 +26,7 @@ export class CoreComponent implements OnInit {
           this.hideCart = true;
           this.hideSignIn = true;
           this.hideSignUp = true;
+          this.hideInfoMovie = true;
           break;
         case'movies' :
           this.hideHome = true;
@@ -32,6 +34,7 @@ export class CoreComponent implements OnInit {
           this.hideCart = true;
           this.hideSignIn = true;
           this.hideSignUp = true;
+          this.hideInfoMovie = true;
           break;
         case 'cart' :
           this.hideHome = true;
@@ -39,6 +42,7 @@ export class CoreComponent implements OnInit {
           this.hideCart = false;
           this.hideSignIn = true;
           this.hideSignUp = true;
+          this.hideInfoMovie = true;
           break;
         case 'signin' :
           this.hideHome = true;
@@ -46,6 +50,7 @@ export class CoreComponent implements OnInit {
           this.hideCart = true;
           this.hideSignIn = false;
           this.hideSignUp = true;
+          this.hideInfoMovie = true;
           break;
         case 'signup' :
           this.hideHome = true;
@@ -53,7 +58,15 @@ export class CoreComponent implements OnInit {
           this.hideCart = true;
           this.hideSignIn = true;
           this.hideSignUp = false;
+          this.hideInfoMovie = true;
           break;
+        default :
+          this.hideHome = true;
+          this.hideList = true;
+          this.hideCart = true;
+          this.hideSignIn = true;
+          this.hideSignUp = true;
+          this.hideInfoMovie = false;
       }
     })
   }

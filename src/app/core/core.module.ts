@@ -11,6 +11,7 @@ import { InfoMovieComponent } from './components/info-movie/info-movie.component
 import { CartComponent } from './components/cart/cart.component';
 import { CarouselComponent } from './components/home/components/carousel/carousel.component';
 import { InitialContentComponent } from './components/home/components/initial-content/initial-content.component';
+import { ItemMovieComponent } from './components/list-movies/components/item-movie/item-movie.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { InitialContentComponent } from './components/home/components/initial-co
     CartComponent,
     CoreComponent,
     CarouselComponent,
-    InitialContentComponent
+    InitialContentComponent,
+    ItemMovieComponent
   ],
   imports: [
     CommonModule,
