@@ -21,7 +21,9 @@
         "Country": "USA, UK",
         "Awards": "Won 3 Oscars. Another 80 wins & 121 nominations.",
         "Poster": "../../../../../assets/images/movies/avatar.jpg",
-        "Banner": "../../../../../assets/images/banner/avatar.jpg"
+        "Banner": "../../../../../assets/images/banner/avatar.jpg",
+        "Trailer": "https://www.youtube.com/embed/g5deg0HgCmY?autoplay=1"
+        
     },
     {
         "id": 2,
@@ -45,7 +47,8 @@
         "Country": "USA",
         "Awards": "9 wins & 21 nominations.",
         "Poster": "../../../../../assets/images/movies/soy-leyenda.jpg",
-        "Banner": "../../../../../assets/images/banner/soy-leyenda.jpg"
+        "Banner": "../../../../../assets/images/banner/soy-leyenda.jpg",
+        "Trailer": "https://www.youtube.com/embed/TXQ7kRnFXS4?autoplay=1"
     },
     {
         "id": 3,
@@ -69,7 +72,8 @@
         "Country": "USA",
         "Awards": "16 wins & 42 nominations.",
         "Poster": "../../../../../assets/images/movies/300.jpg",
-        "Banner": "../../../../../assets/images/banner/300.jpg"
+        "Banner": "../../../../../assets/images/banner/300.jpg",
+        "Trailer": "https://www.youtube.com/embed/XyXJm0_wjXM?autoplay=1"
     },
     {
         "id": 4,
@@ -93,7 +97,8 @@
         "Country": "USA",
         "Awards": "Nominated for 1 Oscar. Another 34 wins & 75 nominations.",
         "Poster": "../../../../../assets/images/movies/los-vengadores.png",
-        "Banner": "../../../../../assets/images/banner/los-vengadores.jpg"
+        "Banner": "../../../../../assets/images/banner/los-vengadores.jpg",
+        "Trailer": "https://www.youtube.com/embed/HQIiYqOVTWo?autoplay=1"
     },
     {
         "id": 5,
@@ -117,7 +122,8 @@
         "Country": "USA",
         "Awards": "Nominated for 5 Oscars. Another 35 wins & 154 nominations.",
         "Poster": "../../../../../assets/images/movies/el-lobo-de-wall-street.jpg",
-        "Banner": "../../../../../assets/images/banner/el-lobo-de-wall-street.jpg"
+        "Banner": "../../../../../assets/images/banner/el-lobo-de-wall-street.jpg",
+        "Trailer": "https://www.youtube.com/embed/w8Z_Ngmys_I?autoplay=1"
     },
     {
         "id": 6,
@@ -141,7 +147,8 @@
         "Country": "USA, UK",
         "Awards": "Won 1 Oscar. Another 39 wins & 134 nominations.",
         "Poster": "../../../../../assets/images/movies/interestelar.jpg",
-        "Banner": "../../../../../assets/images/banner/interestelar.jpg"
+        "Banner": "../../../../../assets/images/banner/interestelar.jpg",
+        "Trailer": "https://www.youtube.com/embed/UoSSbmD9vqc?autoplay=1"
     },
     {
         "id": 7,
@@ -165,7 +172,8 @@
         "Country": "USA",
         "Awards": "N/A",
         "Poster": "../../../../../assets/images/movies/doctor-strange.png",
-        "Banner": "../../../../../assets/images/banner/doctor-strange.jpg"
+        "Banner": "../../../../../assets/images/banner/doctor-strange.jpg",
+        "Trailer": "https://www.youtube.com/embed/DYyMsYgZDJM?autoplay=1"
     },
     {
         "id": 8,
@@ -189,7 +197,8 @@
         "Country": "USA",
         "Awards": "1 nomination.",
         "Poster": "../../../../../assets/images/movies/rogue-one.jpg",
-        "Banner": "../../../../../assets/images/banner/rogue-one.jpg"
+        "Banner": "../../../../../assets/images/banner/rogue-one.jpg",
+        "Trailer": "https://www.youtube.com/embed/Xcs4OpUJWrM?autoplay=1"
     },
     {
         "id": 9,
@@ -213,7 +222,8 @@
         "Country": "UK, France, USA, Hong Kong",
         "Awards": "N/A",
         "Poster": "../../../../../assets/images/movies/assassins-creed.jpg",
-        "Banner": "../../../../../assets/images/banner/assassins-creed.jpg"
+        "Banner": "../../../../../assets/images/banner/assassins-creed.jpg",
+        "Trailer": "https://www.youtube.com/embed/7m95PIpJ8xo?autoplay=1"
     },
     {
         "id": 10,
@@ -237,7 +247,8 @@
         "Country": "",
         "Awards": "",
         "Poster": "../../../../../assets/images/movies/spiderman-no-way-home.jpg",
-        "Banner": ""
+        "Banner": "",
+        "Trailer": ""
     },
     {
         "id": 11,
@@ -261,7 +272,8 @@
         "Country": "",
         "Awards": "",
         "Poster": "../../../../../assets/images/movies/alerta-roja.jpg",
-        "Banner": ""
+        "Banner": "",
+        "Trailer": ""
     },
     {
         "id": 12,
@@ -285,6 +297,7 @@
         "Country": "",
         "Awards": "",
         "Poster": "../../../../../assets/images/movies/saw-spiral.jpg",
-        "Banner": ""
+        "Banner": "",
+        "Trailer": ""
     }
   ]

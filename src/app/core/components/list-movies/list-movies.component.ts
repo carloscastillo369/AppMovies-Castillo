@@ -12,7 +12,7 @@ export class ListMoviesComponent implements OnInit {
   movies:MovieModel[] = [];
 
   constructor(private servicio:MoviesService) { 
-    this.movies = this.servicio.movies;
+    this.movies = this.servicio.getMovies();
   }
 
   ngOnInit(): void {

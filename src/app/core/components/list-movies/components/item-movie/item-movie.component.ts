@@ -18,7 +18,7 @@ export class ItemMovieComponent implements OnInit {
 
   getInfoMovie(movie:MovieModel) {
     this.servicio.getNameView.emit('infoMovie');
+    this.servicio.getInfoMovie.emit(movie);
   }
-
 
 }

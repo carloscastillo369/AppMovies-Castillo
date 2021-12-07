@@ -22,7 +22,8 @@ export class MovieModel {
         public Country:string,
         public Awards:string,
         public Poster:string,
-        public Banner:string
+        public Banner:string,
+        public Trailer:string
     ){}
     
 }

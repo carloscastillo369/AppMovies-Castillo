@@ -60,13 +60,14 @@ export class CoreComponent implements OnInit {
           this.hideSignUp = false;
           this.hideInfoMovie = true;
           break;
-        default :
+        case 'infoMovie' :
           this.hideHome = true;
           this.hideList = true;
           this.hideCart = true;
           this.hideSignIn = true;
           this.hideSignUp = true;
           this.hideInfoMovie = false;
+          break;
       }
     })
   }

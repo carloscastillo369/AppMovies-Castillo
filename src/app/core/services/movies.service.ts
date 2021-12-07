@@ -8,8 +8,12 @@ import { MovieModel } from '../models/movie.model';
 export class MoviesService {
 
   movies:MovieModel[] = MoviesJson;
-
+  
+  getMovies(){
+    return this.movies;
+  }
   @Output() getNameView: EventEmitter<string> = new EventEmitter();
+  @Output() getInfoMovie: EventEmitter<MovieModel> = new EventEmitter();
 
   constructor() { }
 }
