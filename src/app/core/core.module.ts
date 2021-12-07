@@ -9,6 +9,8 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ListMoviesComponent } from './components/list-movies/list-movies.component';
 import { InfoMovieComponent } from './components/info-movie/info-movie.component';
 import { CartComponent } from './components/cart/cart.component';
+import { CarouselComponent } from './components/home/components/carousel/carousel.component';
+import { InitialContentComponent } from './components/home/components/initial-content/initial-content.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CartComponent } from './components/cart/cart.component';
     ListMoviesComponent,
     InfoMovieComponent,
     CartComponent,
-    CoreComponent
+    CoreComponent,
+    CarouselComponent,
+    InitialContentComponent
   ],
   imports: [
     CommonModule,
