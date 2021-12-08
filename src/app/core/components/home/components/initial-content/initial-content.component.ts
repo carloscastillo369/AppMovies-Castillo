@@ -18,7 +18,7 @@ export class InitialContentComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  changeViewToMovies(view:string){
+  changeViewTo(view:string){
     this.servicio.getNameView.emit(view);
   }
 

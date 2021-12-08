@@ -24,7 +24,7 @@ import { ItemMovieComponent } from './components/list-movies/components/item-mov
     CoreComponent,
     CarouselComponent,
     InitialContentComponent,
-    ItemMovieComponent
+    ItemMovieComponent,
   ],
   imports: [
     CommonModule,

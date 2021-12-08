@@ -13,14 +13,13 @@ export class NavbarComponent implements OnInit {
   @Input() hideCart!:boolean;
   @Input() hideSignIn!:boolean;
   @Input() hideSignUp!:boolean;
-  @Output() changeViewTo = new EventEmitter<string>();
 
   constructor(private servicio:MoviesService) { }
 
   ngOnInit(): void {
   }
 
-  changeView(view:string){
+  changeViewTo(view:string){
     this.servicio.getNameView.emit(view);
   }
 

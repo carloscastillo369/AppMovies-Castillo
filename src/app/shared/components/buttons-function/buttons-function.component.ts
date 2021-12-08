@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MovieModel } from 'src/app/core/models/movie.model';
+import { MoviesService } from 'src/app/core/services/movies.service';
 
 @Component({
   selector: 'app-buttons-function',
@@ -10,9 +11,13 @@ export class ButtonsFunctionComponent implements OnInit {
 
   @Input() movie!:MovieModel;
 
-  constructor() { }
+  constructor(private servicio:MoviesService) { }
 
   ngOnInit(): void {
+  }
+
+  buyMovie(movieToBuy:any){
+    this.servicio.getMovieToBuy.emit(movieToBuy);    
   }
 
 }
