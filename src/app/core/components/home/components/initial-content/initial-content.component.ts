@@ -11,15 +11,15 @@ export class InitialContentComponent implements OnInit {
 
   nextReleases:MovieModel[];
 
-  constructor(private servicio:MoviesService) { 
-    this.nextReleases = this.servicio.movies.filter((i) => i.Commingsoon == true);
+  constructor(private moviesService:MoviesService) { 
+    this.nextReleases = this.moviesService.movies.filter((i) => i.Commingsoon == true);
   }
 
   ngOnInit(): void {
   }
 
   changeViewTo(view:string){
-    this.servicio.getNameView.emit(view);
+    this.moviesService.getNameView.emit(view);
   }
 
 }

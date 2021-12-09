@@ -11,8 +11,8 @@ export class ListMoviesComponent implements OnInit {
 
   movies:MovieModel[] = [];
 
-  constructor(private servicio:MoviesService) { 
-    this.movies = this.servicio.getMovies();
+  constructor(private moviesService:MoviesService) { 
+    this.movies = this.moviesService.getMovies();
   }
 
   ngOnInit(): void {

@@ -8,7 +8,6 @@ export class CartMoviesModel {
         public Runtime: string,
         public Tipo: string,
         public Price: number
-
     ){}
 
 }

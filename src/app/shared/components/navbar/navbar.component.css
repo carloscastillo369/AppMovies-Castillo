@@ -15,16 +15,3 @@
 .navbar-brand, .nav-link {
     cursor: pointer;
 }
-
-.icon-image {
-    width: 19px ;
-    height: 19px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon-image::before {
-    font-size: 22px;
-    vertical-align: 0px;
-}

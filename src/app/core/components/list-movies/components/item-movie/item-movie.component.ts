@@ -11,14 +11,14 @@ export class ItemMovieComponent implements OnInit {
 
   @Input() movie!:MovieModel;
 
-  constructor(private servicio:MoviesService) { }
+  constructor(private moviesService:MoviesService) { }
 
   ngOnInit(): void {
   }
 
   getInfoMovie(movie:MovieModel) {
-    this.servicio.getNameView.emit('infoMovie');
-    this.servicio.getInfoMovie.emit(movie);
+    this.moviesService.getNameView.emit('infoMovie');
+    this.moviesService.getInfoMovie.emit(movie);
   }
 
 }

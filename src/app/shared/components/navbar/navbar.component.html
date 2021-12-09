@@ -16,7 +16,7 @@
                     <a [ngClass]="{'active':hideList==false}" class="nav-link" (click)="changeViewTo('movies')">Movies</a>
                 </li>
                 <li class="nav-item">
-                    <a [ngClass]="{'active':hideCart==false}" class="nav-link" (click)="changeViewTo('cart')"><i class="icon-image bi bi-cart"></i></a>
+                    <app-cart-widget [hideCart]="hideCart"></app-cart-widget>
                 </li>
                 <li class="nav-item">
                     <a [ngClass]="{'active':hideSignIn==false}" class="nav-link" (click)="changeViewTo('signin')">Sign In</a>

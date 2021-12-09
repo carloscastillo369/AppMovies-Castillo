@@ -14,7 +14,6 @@ export class MoviesService {
   }
   @Output() getNameView: EventEmitter<string> = new EventEmitter();
   @Output() getInfoMovie: EventEmitter<MovieModel> = new EventEmitter();
-  @Output() getMovieToBuy: EventEmitter<any> = new EventEmitter();
 
   constructor() { }
 }

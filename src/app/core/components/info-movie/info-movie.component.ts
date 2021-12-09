@@ -13,8 +13,8 @@ export class InfoMovieComponent implements OnInit {
     id: 0,
     Title: "",
     Year: "",
-    Saleprice: 22220,
-    Rentalprice: 22220,
+    Saleprice: 0,
+    Rentalprice: 0,
     Forrental: true,
     Forsale: true,
     Commingsoon: true,
@@ -38,10 +38,10 @@ export class InfoMovieComponent implements OnInit {
   modal:string = "modal";
   @ViewChild('asTrailer', {static: true}) trailer!: ElementRef;
 
-  constructor(public servicio:MoviesService, public renderer2:Renderer2) { }
+  constructor(private moviesService:MoviesService, private renderer2:Renderer2) { }
 
   ngOnInit(): void {
-    this.servicio.getInfoMovie.subscribe((data) => {
+    this.moviesService.getInfoMovie.subscribe((data) => {
       this.infoMovie = data;
     })
   }
