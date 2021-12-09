@@ -12,7 +12,7 @@ export class InitialContentComponent implements OnInit {
   nextReleases:MovieModel[];
 
   constructor(private moviesService:MoviesService) { 
-    this.nextReleases = this.moviesService.movies.filter((i) => i.Commingsoon == true);
+    this.nextReleases = this.moviesService.movies.filter((i:any) => i.Commingsoon == true);
   }
 
   ngOnInit(): void {

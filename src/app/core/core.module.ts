@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '../shared/shared.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { CoreComponent } from './core.component';
 import { HomeComponent } from './components/home/home.component';
@@ -28,7 +29,8 @@ import { ItemMovieComponent } from './components/list-movies/components/item-mov
   ],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    ReactiveFormsModule
   ],
   exports: [
     CoreComponent
