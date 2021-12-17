@@ -11,11 +11,10 @@ export class ListMoviesComponent implements OnInit {
 
   movies:MovieModel[] = [];
 
-  constructor(private moviesService:MoviesService) { 
-    this.movies = this.moviesService.getMovies();
-  }
+  constructor(private moviesService:MoviesService) { }
 
   ngOnInit(): void {
+    this.movies = this.moviesService.getMovies();
   }
 
 }
